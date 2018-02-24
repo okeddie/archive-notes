@@ -1,0 +1,2 @@
+This really only pertains to running the 32 bit packet tracer(cisco does not provide 64 bit for linux) on a 64 bit OS fedora install:
+yum install -y zlib.i686 libstdc++.i686 ncurses-libs.i686 libgcc.i686 libQtGTL.i686 libQtGTL-devel.i686 qtwebkit.i686 libpng12.i686

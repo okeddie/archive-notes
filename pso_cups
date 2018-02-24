@@ -1,0 +1,10 @@
+1. Open system-config-printer in fedora and change the Server > Settings > check “Allow printing from the internet”
+
+2. You can add printer from network and put in path at windows pc:
+
+http://{computername}:631/printers/{printername}
+
+http://192.168.0.3:631/printers/deskjet_2600
+
+I verified with tcpdump against port that windows made the connection. then just browsed through the HP driver listing for deskjet D2600 series. SMH
+
